@@ -1,7 +1,7 @@
 {
 	"$ref": "schemas/text.json",
-	"title": "MCQ",
-	"id": "mcq",
+	"title": "GMCQ",
+	"id": "gmcq",
 	"properties": {
 		"_attempts": {
 			"type": "number"
@@ -30,11 +30,26 @@
 					"text": {
 						"type": "string"
 					},
-					"feedback": {
-						"type": "string"
-					},
 					"_shouldBeSelected": {
 						"type": "boolean"
+					},
+					"_graphic": {
+						"type": "object",
+						"options": {
+							"collapsed": true
+						},
+						"name": "_graphic",
+						"properties": {
+							"large": {
+								"type": "string"
+							},
+							"alt": {
+								"type": "string"
+							},
+							"small": {
+								"type": "string"
+							}
+						}
 					}
 				}
 			}

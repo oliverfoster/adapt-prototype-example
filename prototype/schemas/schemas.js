@@ -4,5 +4,6 @@ var schemas = {
 	"accordion": true,
 	"narrative": true,
 	"hotgraphic": true,
-	"mcq": true
+	"mcq": true,
+	"gmcq": true
 };
